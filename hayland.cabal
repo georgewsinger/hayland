@@ -61,14 +61,14 @@ library
     wayland-cursor,
     wayland-egl,
     wayland-server
-  includes:
-    wayland-client.h,
-    wayland-server.h,
-    wayland-client-protocol.h,
-    wayland-server-protocol.h,
-    wayland-util.h,
-    wayland-version.h,
-    wayland-egl.h
+  -- includes:
+  --   wayland-client.h,
+  --   wayland-server.h,
+  --   wayland-client-protocol.h,
+  --   wayland-server-protocol.h,
+  --   wayland-util.h,
+  --   wayland-version.h,
+  --   wayland-egl.h
 
 -- FIXME: this tests assumes there's a wayland server (e.g. weston) running.
 test-suite firsttest
