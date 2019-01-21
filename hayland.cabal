@@ -60,7 +60,8 @@ library
     wayland-client,
     wayland-cursor,
     wayland-egl,
-    wayland-server
+    wayland-server,
+    wlroots
   -- includes:
   --   wayland-client.h,
   --   wayland-server.h,
